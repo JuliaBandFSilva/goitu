@@ -3,16 +3,17 @@
 :root {
     --black: #000000;
     --vividblue: #004cb0;
-    --azure: #38acf0;
+    --azure: #3494cc;
     --darkblue: #073169;
     --white: #ffffff;
     --lightgrey: #f5f3f3;
     --grey: #d5d5d5;
     --clear: rgb(255, 255, 255);
+    --azuleclaro: rgba(52, 148, 204, 0.75);
 }
 
-/* Estilo do body */
-body {
+/* BODY BEBE */
+body{
    
     font-family: "Ruda", sans-serif;
     font-optical-sizing: auto;
@@ -22,18 +23,34 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    }
     .bg-azul-bebe {
-  background-color: rgba(255, 255, 255, 0.5); /* azul clarinho com 30% de opacidade */
-}
+  background-color: rgba(255, 255, 255, 0.55); /* OPACIDADE */
+    }
+    /*historia formtacao*/
+    .historia-page {
+    background-image: none;         
+    background-color: var(--white); 
+    }
+    .historia-page .navbar .container {
+    max-width: 1140px; /* largura menor só nesta página */
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 200px;
+    }
+    .historia-page .bg-primary-color {
+    background-color: var(--azuleclaro); /* azul bebê */
+    }
 
-/* Estilo do container customizado */
+/* CONTAINER COST*/
 .custom-container {
     max-width: 1440px;
     padding: 0 5%;
     margin: 0 auto;
 }
+  
 
-/* Estilo da navbar */
+/* ESTILO NAV BAR */
 nav {
     display: flex;
     align-items: center;
@@ -42,28 +59,32 @@ nav {
     font-family: "Ruda", sans-serif;
 }
 
-/* Estilo para links da navbar */
+/* ESTOLO NAV BAR LINK*/
 nav a {
     text-decoration: none;
     color: var(--white);
 }
 
-/* Corrige fundo do menu */
-.bg-primary-color {
-    
-}
 
-.bg-dark-blue {
-  background-color: var(--darkblue); /* Azul escuro */
-}
 
 .footer-link {
-  color: var(--white);
+  color: var(--grey);
   text-decoration: none;
-  transition: color 0.3s;
+  
 }
 
 .footer-link:hover {
   color: var(--azure);
   text-decoration: underline;
 }
+.bg-dark-blue {
+    background: var(--darkblue);
+}
+
+.img-fluid {
+   border: 4px solid var(--azure);
+    border-radius: 07px;
+    
+}
+
+    
