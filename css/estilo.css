@@ -64,6 +64,24 @@ body{
     
     }
 
+/*dicas formatação*/
+    .dicas-page {
+    background-image: none;         
+    background-color: var(--white); 
+    }
+    .dicas-page .navbar .container {
+    max-width: 1140px; /* largura menor só nesta página */
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 200px;
+    }
+    .dicas-page .bg-primary-color {
+    background-color: var(--azuleclaro); /* azul bebê */
+
+    
+    }
+
+
 
 /* CONTAINER COST*/
 .custom-container {
@@ -126,4 +144,9 @@ nav a {
     background-color: var(--azuleclaro); /* azul bebê */
     }
 
+    /* ...*/
+    .box { display: none; }
+        .box.show { display: block; }
+        .buttons { margin: 20px 0; text-align: center; }
+        .buttons button { margin: 5px; }
     
