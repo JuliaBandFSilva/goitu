@@ -26,8 +26,12 @@ body{
     }
     .bg-azul-bebe {
   background-color: rgba(255, 255, 255, 0.55); /* OPACIDADE */
+
+  
     }
-    /*historia formtacao*/
+
+
+    /*historia formatacao*/
     .historia-page {
     background-image: none;         
     background-color: var(--white); 
@@ -41,6 +45,25 @@ body{
     .historia-page .bg-primary-color {
     background-color: var(--azuleclaro); /* azul bebê */
     }
+
+
+     /*membros formatação*/
+    .membros-page {
+    background-image: none;         
+    background-color: var(--white); 
+    }
+    .membros-page .navbar .container {
+    max-width: 1140px; /* largura menor só nesta página */
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 200px;
+    }
+    .membros-page .bg-primary-color {
+    background-color: var(--azuleclaro); /* azul bebê */
+
+    
+    }
+
 
 /* CONTAINER COST*/
 .custom-container {
@@ -88,7 +111,7 @@ nav a {
 }
 
     .hoteis-page {
-         /*hoteis formtacao*/ 
+         /*hoteis formatacao*/ 
     background-image: none;         
     background-color: var(--white); 
     }
@@ -102,3 +125,5 @@ nav a {
     .hoteis-page .bg-primary-color {
     background-color: var(--azuleclaro); /* azul bebê */
     }
+
+    
