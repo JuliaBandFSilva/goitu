@@ -87,4 +87,18 @@ nav a {
     
 }
 
+    .hoteis-page {
+         /*hoteis formtacao*/ 
+    background-image: none;         
+    background-color: var(--white); 
+    }
     
+    .hoteis-page .navbar .container {
+    max-width: 1140px; /* largura menor só nesta página */
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 200px;
+    }
+    .hoteis-page .bg-primary-color {
+    background-color: var(--azuleclaro); /* azul bebê */
+    }
